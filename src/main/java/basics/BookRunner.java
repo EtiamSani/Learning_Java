@@ -6,9 +6,9 @@ public class BookRunner {
         Book effectiveJava = new Book();
         Book cleanCode = new Book();
 
-        artOfComputerProgramming.noOfCopies = 583;
-        effectiveJava.noOfCopies = 787;
-        cleanCode.noOfCopies = 78847;
+        artOfComputerProgramming.pages(583);
+        effectiveJava.pages(5813);
+        cleanCode.pages(588);
 
     }
 }
