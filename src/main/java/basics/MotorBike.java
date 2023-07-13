@@ -15,6 +15,10 @@ public class MotorBike {
         this.speed = speed;
         System.out.println(speed);
     }
+
+    int getSpeed(){
+        return this.speed;
+    }
     void start() {
         System.out.println("Bike started");
     }
