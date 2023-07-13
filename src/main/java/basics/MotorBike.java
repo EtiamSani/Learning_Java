@@ -16,6 +16,10 @@ public class MotorBike {
         System.out.println(speed);
     }
 
+    public void increaseSpeed(int howMuch){
+        this.speed = this.speed + howMuch;
+    }
+
     int getSpeed(){
         return this.speed;
     }
