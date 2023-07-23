@@ -5,11 +5,9 @@ public class MotorBike {
     //state
     private int speed;
 
-    //behavour
-    //method
-    //inputs - int speed
-    //outputs - void
-    //name - setSpeed
+    MotorBike(int speed){
+        this.speed = speed;
+    }
 
     void setSpeed(int speed) {
         this.speed = speed;

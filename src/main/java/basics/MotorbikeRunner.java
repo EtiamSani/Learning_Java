@@ -2,8 +2,8 @@ package basics;
 
 public class MotorbikeRunner {
     public static void main(String[] args) {
-        MotorBike ducati = new MotorBike();
-        MotorBike honda = new MotorBike();
+        MotorBike ducati = new MotorBike(100);
+        MotorBike honda = new MotorBike(200);
 
         ducati.start();
         honda.start();

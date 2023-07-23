@@ -2,6 +2,10 @@ package basics;
 
 public class Book {
     private int noOfCopies;
+
+    Book (int noOfCopies){
+        this.noOfCopies = noOfCopies;
+    }
     void pages(int noOfCopies){
         this.noOfCopies = noOfCopies;
     }

@@ -2,9 +2,9 @@ package basics;
 
 public class BookRunner {
     public static void main(String[] args) {
-        Book artOfComputerProgramming = new Book();
-        Book effectiveJava = new Book();
-        Book cleanCode = new Book();
+        Book artOfComputerProgramming = new Book(100);
+        Book effectiveJava = new Book(878);
+        Book cleanCode = new Book(99);
 
         artOfComputerProgramming.pages(583);
         effectiveJava.pages(5813);
