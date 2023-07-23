@@ -28,4 +28,11 @@ public class MyChar {
         }
         return false;
     }
+
+    public boolean isConsonant() {
+        if(isAlphabet() && !isVowel()){
+            return true;
+        }
+        return false;
+    }
 }
